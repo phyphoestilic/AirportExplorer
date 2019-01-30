@@ -2,12 +2,14 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <UserSecretsId>b3bbea4e-d272-489e-abf0-2858df93df3d</UserSecretsId>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="csvhelper" Version="12.1.1"/>
-    <PackageReference Include="GeoJSON.net" Version="1.1.70"/>
-    <PackageReference Include="Microsoft.AspNetCore.App"/>
-    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All"/>
-    <PackageReference Include="GeoJSON.Net" Version="1.1.70"/>
+    <PackageReference Include="csvhelper" Version="12.1.1" />
+    <PackageReference Include="GeoJSON.net" Version="1.1.70" />
+    <PackageReference Include="GoogleApi" Version="3.7.5" />
+    <PackageReference Include="MaxMind.GeoIP2" Version="3.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
   </ItemGroup>
 </Project>

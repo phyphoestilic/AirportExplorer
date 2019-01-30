@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "b36818a78e1460eed609d6d51b385bb3652a4f45"
+    "signature": "e046bea8f4f3e1968742fe24696c66e480f65654"
   },
   "compilationOptions": {
     "defines": [
@@ -24,15 +24,90 @@
     ".NETCoreApp,Version=v2.2": {
       "AirportExplorer/1.0.0": {
         "dependencies": {
+          "GeoJSON.Net": "1.1.70",
+          "GoogleApi": "3.7.5",
+          "MaxMind.GeoIP2": "3.0.0",
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
-          "Microsoft.NETCore.App": "2.2.0"
+          "Microsoft.NETCore.App": "2.2.0",
+          "CsvHelper": "12.1.1"
         },
         "runtime": {
           "AirportExplorer.dll": {}
         },
         "compile": {
           "AirportExplorer.dll": {}
+        }
+      },
+      "CsvHelper/12.1.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "System.Reflection.TypeExtensions": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/CsvHelper.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/CsvHelper.dll": {}
+        }
+      },
+      "GeoJSON.Net/1.1.70": {
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netstandard1.1/GeoJSON.Net.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard1.1/GeoJSON.Net.dll": {}
+        }
+      },
+      "GoogleApi/3.7.5": {
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2",
+          "Portable.BouncyCastle": "1.8.1.3"
+        },
+        "runtime": {
+          "lib/netstandard1.1/GoogleApi.dll": {
+            "assemblyVersion": "3.7.5.0",
+            "fileVersion": "3.7.5.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard1.1/GoogleApi.dll": {}
+        }
+      },
+      "MaxMind.Db/2.4.0": {
+        "runtime": {
+          "lib/netstandard2.0/MaxMind.Db.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/MaxMind.Db.dll": {}
+        }
+      },
+      "MaxMind.GeoIP2/3.0.0": {
+        "dependencies": {
+          "MaxMind.Db": "2.4.0",
+          "Microsoft.CSharp": "4.5.0",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MaxMind.GeoIP2.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/MaxMind.GeoIP2.dll": {}
         }
       },
       "Microsoft.NETCore.App/2.2.0": {
@@ -206,6 +281,18 @@
           "Microsoft.NETCore.Platforms": "2.2.0"
         }
       },
+      "Portable.BouncyCastle/1.8.1.3": {
+        "runtime": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
+            "assemblyVersion": "1.8.1.0",
+            "fileVersion": "1.8.1.146"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {}
+        }
+      },
+      "System.Reflection.TypeExtensions/4.4.0": {},
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "dependencies": {
           "Newtonsoft.Json": "11.0.2",
@@ -1532,7 +1619,7 @@
           "System.Collections": "4.3.0",
           "System.IO": "4.3.0",
           "System.IO.FileSystem": "4.3.0",
-          "System.Reflection.TypeExtensions": "4.3.0",
+          "System.Reflection.TypeExtensions": "4.4.0",
           "System.Runtime.Extensions": "4.3.0",
           "System.Runtime.InteropServices": "4.3.0",
           "System.Runtime.InteropServices.RuntimeInformation": "4.3.0"
@@ -2450,7 +2537,7 @@
           "System.Reflection.Emit": "4.3.0",
           "System.Reflection.Emit.ILGeneration": "4.3.0",
           "System.Reflection.Primitives": "4.3.0",
-          "System.Reflection.TypeExtensions": "4.3.0",
+          "System.Reflection.TypeExtensions": "4.4.0",
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0",
@@ -2582,7 +2669,7 @@
           "System.Reflection.Emit.Lightweight": "4.3.0",
           "System.Reflection.Extensions": "4.3.0",
           "System.Reflection.Primitives": "4.3.0",
-          "System.Reflection.TypeExtensions": "4.3.0",
+          "System.Reflection.TypeExtensions": "4.4.0",
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0",
@@ -2678,7 +2765,7 @@
           "System.Reflection.Emit.Lightweight": "4.3.0",
           "System.Reflection.Extensions": "4.3.0",
           "System.Reflection.Primitives": "4.3.0",
-          "System.Reflection.TypeExtensions": "4.3.0",
+          "System.Reflection.TypeExtensions": "4.4.0",
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0",
@@ -2748,13 +2835,6 @@
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.2.0",
           "Microsoft.NETCore.Targets": "2.0.0",
-          "System.Runtime": "4.3.0"
-        },
-        "compileOnly": true
-      },
-      "System.Reflection.TypeExtensions/4.3.0": {
-        "dependencies": {
-          "System.Reflection": "4.3.0",
           "System.Runtime": "4.3.0"
         },
         "compileOnly": true
@@ -3180,7 +3260,7 @@
           "System.Reflection.Emit.ILGeneration": "4.3.0",
           "System.Reflection.Extensions": "4.3.0",
           "System.Reflection.Primitives": "4.3.0",
-          "System.Reflection.TypeExtensions": "4.3.0",
+          "System.Reflection.TypeExtensions": "4.4.0",
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0",
@@ -3226,6 +3306,41 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "CsvHelper/12.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-M8ns/FJk1Tt1+XmqriSfvr7dgp6xpyr9ZAMCgofxZvAbfPirn9pD78gB3Ue3GJG876ktYZU1vRxDi42QHOA7ag==",
+      "path": "csvhelper/12.1.1",
+      "hashPath": "csvhelper.12.1.1.nupkg.sha512"
+    },
+    "GeoJSON.Net/1.1.70": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-e48iFyt3mCoW2JdPi4v40T4rh9/ba5qHtaANP9Abwhu8K5uu3c4EfH9S3yDga+itO1rMIrLKA+t67lK6BavxxQ==",
+      "path": "geojson.net/1.1.70",
+      "hashPath": "geojson.net.1.1.70.nupkg.sha512"
+    },
+    "GoogleApi/3.7.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sL+FBgAeYVjGbR3rGYDHBkzrnAehmGv8e8IT4YrFICV1YJDbaBKgk1ifWt8a369jnsKX9PTe3iGgniVU34lgGg==",
+      "path": "googleapi/3.7.5",
+      "hashPath": "googleapi.3.7.5.nupkg.sha512"
+    },
+    "MaxMind.Db/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kxVhCQM3AtHDOa2glAfIP7jU5fJ+35lmEZkZDor+QZoS6UXyG3wRttSbHSC5BshLHFnpAwo58r2J9UxtBHGDAw==",
+      "path": "maxmind.db/2.4.0",
+      "hashPath": "maxmind.db.2.4.0.nupkg.sha512"
+    },
+    "MaxMind.GeoIP2/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ff71bnjI/E/5+5hnXgFjQ63jg4GZ55n4TUNGgfGJQF3AOz4vrp6ajq/TN4qj8rzd+ZVVYSMjOGDqzQ4gLzi81g==",
+      "path": "maxmind.geoip2/3.0.0",
+      "hashPath": "maxmind.geoip2.3.0.0.nupkg.sha512"
     },
     "Microsoft.NETCore.App/2.2.0": {
       "type": "package",
@@ -3275,6 +3390,20 @@
       "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Portable.BouncyCastle/1.8.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Gas5/eVCmh5CzivrSWq/n4LoQc7x0EzQ5WDJpj6yP5+fKBczVZrtoqGXPwApvRXC9Brcr0DnNAtMPvXxNH/N2w==",
+      "path": "portable.bouncycastle/1.8.1.3",
+      "hashPath": "portable.bouncycastle.1.8.1.3.nupkg.sha512"
+    },
+    "System.Reflection.TypeExtensions/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BWYdrACMy1Sbq7Kh1oISS+2qKX1dHhXNpRByG3c6M9i2fhU9BZqO3nFYIabmbZuQwd7svR5zfxNHgmgv2XkkIg==",
+      "path": "system.reflection.typeextensions/4.4.0",
+      "hashPath": "system.reflection.typeextensions.4.4.0.nupkg.sha512"
     },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "type": "package",
@@ -4906,13 +5035,6 @@
       "sha512": "sha512-5RXItQz5As4xN2/YUDxdpsEkMhvw3e6aNveFXUn4Hl/udNTCNhnKp8lT9fnc3MhvGKh1baak5CovpuQUXHAlIA==",
       "path": "system.reflection.primitives/4.3.0",
       "hashPath": "system.reflection.primitives.4.3.0.nupkg.sha512"
-    },
-    "System.Reflection.TypeExtensions/4.3.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-7u6ulLcZbyxB5Gq0nMkQttcdBTx57ibzw+4IOXEfR+sXYQoHvjW5LTLyNr8O22UIMrqYbchJQJnos4eooYzYJA==",
-      "path": "system.reflection.typeextensions/4.3.0",
-      "hashPath": "system.reflection.typeextensions.4.3.0.nupkg.sha512"
     },
     "System.Resources.ResourceManager/4.3.0": {
       "type": "package",
