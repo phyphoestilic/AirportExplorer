@@ -53,7 +53,7 @@ namespace AirportExplorer.Pages
                     {
                         InitialLatitude = city.Location.Latitude.Value;
                         InitialLongitude = city.Location.Longitude.Value;
-                        InitialZoom = 9;
+                        InitialZoom = 13;
                     }
                 }
             }
