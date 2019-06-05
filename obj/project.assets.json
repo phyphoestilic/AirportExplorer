@@ -12259,23 +12259,23 @@
     ]
   },
   "packageFolders": {
-    "/home/phyphoestilic/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\Phyphoestilic\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/phyphoestilic/Documents/C# Projects/AirportExplorer/AirportExplorer.csproj",
+      "projectUniqueName": "C:\\Users\\Phyphoestilic\\Documents\\C# Projects\\AirportExplorer\\AirportExplorer.csproj",
       "projectName": "AirportExplorer",
-      "projectPath": "/home/phyphoestilic/Documents/C# Projects/AirportExplorer/AirportExplorer.csproj",
-      "packagesPath": "/home/phyphoestilic/.nuget/packages/",
-      "outputPath": "/home/phyphoestilic/Documents/C# Projects/AirportExplorer/obj/",
+      "projectPath": "C:\\Users\\Phyphoestilic\\Documents\\C# Projects\\AirportExplorer\\AirportExplorer.csproj",
+      "packagesPath": "C:\\Users\\Phyphoestilic\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Phyphoestilic\\Documents\\C# Projects\\AirportExplorer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/phyphoestilic/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Phyphoestilic\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"

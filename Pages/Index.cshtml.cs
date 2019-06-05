@@ -57,7 +57,7 @@ namespace AirportExplorer.Pages
                     }
                 }
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
                 // Just suppress errors. If we could not retrieve the location for whatever reason
                 // there is not reason to notify the user. We'll just simply not know their current
